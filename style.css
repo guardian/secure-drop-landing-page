@@ -1,0 +1,164 @@
+body{
+	font-size: 16px;
+}
+
+/*FONTS*/
+@font-face{
+	font-family: 'DE3';
+	src: url(assetsforsecuredrop/GdnEgyDE3Reg.otf);
+}
+
+@font-face{
+	font-family: 'DE5';
+	src: url(assetsforsecuredrop/GdnEgyDE5Sem.otf);
+}
+
+@font-face{
+	font-family: 'textsans';
+	src: url(assetsforsecuredrop/GdnSanDS3Reg.otf);
+}
+
+header, footer{
+	background: #005689;
+	height: 48px;
+}
+
+header img, footer img{
+	float: right;
+	padding: 10px 10% 10px 0;
+}
+
+.intro{
+	background: #197CAA;
+}
+
+.intro h1, .intro p{
+	font-family:'DE3';
+	width: 55%;
+	margin: 0 auto;	
+	color: #fff;
+}
+
+.intro h1{
+	font-size: 3em;
+	line-height: 1em;
+	padding: 36px 0 24px 0;
+}
+
+.intro p{
+	font-size: 1.125em;
+	line-height: 1.5em;
+	padding: 0 0 48px 0;
+}
+
+.intro span{
+	font-family:'DE5';
+}
+
+.instructions h2, .instructions p, li, .pgp h2, .pgp p, .terms p, .terms h2, .subfooter{
+	width: 55%;
+	margin: 0 auto;	
+	color: #333;
+}
+
+.instructions p, .instructions li, .pgp p, .terms p{
+	line-height: 1.4;
+    font-family: 'DE3';
+    font-size: 16px;
+}
+
+h2{
+	font-family:'DE5';
+	padding: 36px 0 20px 0;
+	font-size: 1.25em;
+}
+
+p{
+	padding-bottom: 20px;
+}
+
+ol.circles-list {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+    margin: 0;
+    margin-left: 4em;
+    padding: 0;
+    counter-reset: li-counter;
+}
+ol.circles-list > li{
+    position: relative;
+    margin-bottom: 24px;
+    padding-left: 0.5em;
+    min-height: 3em;
+}
+ol.circles-list > li:before {
+    position: absolute;
+    top: 0;
+    left: -1.33em;
+    width: 1.2em;
+    height: 1.2em;
+    font-size: 2.5em;
+    line-height: 1.2;
+    text-align: center;
+    color: #f5f5f5;
+    border-radius: 50%;
+    background-color: #4bc6df;
+	font-family:'DE3';
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+ol.circles-list > li:after{
+	font-size: 16px;
+}
+
+.pgp{
+	background: #CCE8F7;
+}
+
+.pgplink{
+	font-family: 'textsans';
+	font-size: 14px;
+	background: #005689;
+	color: #fff;
+	padding: 11px 45px 11px 22px;
+  	border-radius: 20px;
+  	position: relative;
+}
+
+a.pgplink:after {
+      content: url(assetsforsecuredrop/right-arrow.svg);
+      padding-left: 1em;
+      position: absolute;
+      top: 9px;
+    }
+
+.terms p{
+	font-family: 'textsans';
+	font-size: 14px;
+}
+
+footer a img{
+	border: 2px solid grey;
+	border-radius: 50%;
+	float: left;
+	width: 30px;
+	height: 30px;
+	padding: 3px;
+	margin: 4px 0 4px 90px;
+}
+
+footer a p{
+	font-family:'DE3';
+	font-size: 16px;
+	padding: 16px;
+	float: left;
+	color: #fff;
+}
+
+.subfooter p{
+	font-family:'textsans';
+	font-size: 14px;
+	padding: 20px;
+}
+
