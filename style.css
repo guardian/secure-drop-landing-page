@@ -73,6 +73,10 @@ h2{
 	font-size: 1.25em;
 }
 
+.instructions h2:nth-of-type(2){
+	padding-top: 10px;
+}
+
 p{
 	padding-bottom: 20px;
 }
@@ -136,6 +140,10 @@ a.pgplink:after {
 .terms p{
 	font-family: 'textsans';
 	font-size: 14px;
+}
+
+.terms ul{
+	padding-bottom: 16px;
 }
 
 footer a img{
