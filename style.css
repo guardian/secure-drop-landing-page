@@ -37,23 +37,23 @@ header img, footer img{
 a{
 	color: #005689;
 	text-decoration: none !important;
-  	border-bottom: 0.0625rem solid #dcdcdc;
-  	border-bottom-width: 0.0625rem;
-  	border-bottom-style: solid;
-  	border-bottom-color: rgb(220, 220, 220);
+	border-bottom: 0.0625rem solid #dcdcdc;
+	border-bottom-width: 0.0625rem;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(220, 220, 220);
 }
 
 
 /*Intro styles*/
 
 .introcontainer{
-       background: #1878a5;
+  background: #1878a5;
 }
 
 .intro{
-       background: #197CAA;
-       width: 85%;
-       margin: 0 auto;        
+ background: #197CAA;
+ width: 85%;
+ margin: 0 auto;        
 }
 
 .intro h1, .intro p{
@@ -82,7 +82,7 @@ a{
 
 
 .intro span{
-	font-family:'DE5';
+  font-family:'DE5';
 }
 
 .instructionscontainer{
@@ -94,7 +94,6 @@ a{
   width: 85%;
   margin: 0 auto;        
 }
-
 
 .instructions h2, .instructions p, li, .pgp h2, .pgp p, .terms p, .terms h2, .subfooter, .about{	
 	color: #333;
@@ -123,13 +122,13 @@ p{
 }
 
 .pgpcontainer{
-       background: #c6e1ef;
+  background: #c6e1ef;
 }
 
 .pgp{
-       background: #cce8f7;
-       width: 85%;
-       margin: 0 auto;        
+  background: #cce8f7;
+  width: 85%;
+  margin: 0 auto;        
 }
 
 .pgp p:last-child{
@@ -137,34 +136,34 @@ p{
 }
 
 ol.circles-list {
-    list-style-type: none;
-    list-style-type: decimal !ie; /*IE 7- hack*/
-    margin: 0;
-    margin-left: 4em;
-    padding: 0;
-    counter-reset: li-counter;
+  list-style-type: none;
+  list-style-type: decimal !ie; /*IE 7- hack*/
+  margin: 0;
+  margin-left: 4em;
+  padding: 0;
+  counter-reset: li-counter;
 }
 ol.circles-list > li{
-    position: relative;
-    margin-bottom: 24px;
-    padding-left: 5em;
-    min-height: 3em;
+  position: relative;
+  margin-bottom: 24px;
+  padding-left: 5em;
+  min-height: 3em;
 }
 ol.circles-list > li:before {
-    position: absolute;
-    top: 0;
-    left: -0.1em;
-    width: 1.5em;
-    height: 1.5em;
-    font-size: 2.5em;
-    line-height: 1.4;
-    text-align: center;
-    color: #fff;
-    border-radius: 50%;
-    background-color: #4bc6df;
-	font-family:'DE3';
-    content: counter(li-counter);
-    counter-increment: li-counter;
+  position: absolute;
+  top: 0;
+  left: -0.1em;
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 2.5em;
+  line-height: 1.4;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #4bc6df;
+  font-family:'DE3';
+  content: counter(li-counter);
+  counter-increment: li-counter;
 }
 
 ol.circles-list > li:after{
@@ -172,31 +171,31 @@ ol.circles-list > li:after{
 }
 
 .pgplink{
-	font-family: 'textsans';
-	font-size: 14px;
-	background: #005689;
-	color: #fff;
-	padding: 11px 45px 11px 22px;
-  	border-radius: 20px;
-  	position: relative;
-  	text-decoration: none;
+  font-family: 'textsans';
+  font-size: 14px;
+  background: #005689;
+  color: #fff;
+  padding: 11px 45px 11px 22px;
+  border-radius: 20px;
+  position: relative;
+  text-decoration: none;
 }
 
 a.pgplink:after {
-      content: url(assetsforsecuredrop/right-arrow.svg);
-      padding-left: 1em;
-      position: absolute;
-      top: 9px;
-    }
+  content: url(assetsforsecuredrop/right-arrow.svg);
+  padding-left: 1em;
+  position: absolute;
+  top: 9px;
+}
 
 .termscontainer{
-       background: #f7f7f7;
+  background: #f7f7f7;
 }
 
 .terms{
-       background: #FFF;
-       width: 85%;
-       margin: 0 auto;        
+ background: #FFF;
+ width: 85%;
+ margin: 0 auto;        
 }
 
 .terms p{
@@ -210,13 +209,13 @@ a.pgplink:after {
 }
 
 .footercontainer{
-       background: #005385;
+  background: #005385;
 }
 
 .footer{
-       background: #005689;
-       width: 85%;
-       margin: 0 auto;        
+ background: #005689;
+ width: 85%;
+ margin: 0 auto;        
 }
 
 footer a img{
@@ -297,38 +296,39 @@ footer a p{
    padding: 24px 0 24px 0;
  }
 
- .intro p{
-	font-size: 1.125em;
-	line-height: 1.5em;
-	padding: 0 0 24px 0;
-}
- .instructions h2, .instructions p, li, .pgp h2, .pgp p, .terms p, .terms h2, .subfooter, .about{
-	width: 80%;
- }
+  .intro p{
+  	font-size: 1.125em;
+  	line-height: 1.5em;
+  	padding: 0 0 24px 0;
+  }
 
- h2{
-	padding: 24px 0 20px 0;
-}
+  .instructions h2, .instructions p, li, .pgp h2, .pgp p, .terms p, .terms h2, .subfooter, .about{
+	 width: 80%;
+  }
 
-p{
-	padding-bottom: 24px;
-}
+  h2{
+	 padding: 24px 0 20px 0;
+  }
 
- ol.circles-list {
+  p{
+	 padding-bottom: 24px;
+  }
+
+  ol.circles-list {
     list-style-type: none;
     list-style-type: decimal !ie; /*IE 7- hack*/
     margin: 0;
     margin-left: 1.5em;
     padding: 0;
     counter-reset: li-counter;
- }
- ol.circles-list > li{
+  }
+  ol.circles-list > li{
     position: relative;
     margin-bottom: 24px;
     padding-left: 5em;
     min-height: 3em;
- }
- ol.circles-list > li:before {
+  }
+  ol.circles-list > li:before {
     position: absolute;
     top: 0;
     left: 0.5em;
@@ -340,74 +340,74 @@ p{
     color: #fff;
     border-radius: 50%;
     background-color: #4bc6df;
-	font-family:'DE3';
+    font-family:'DE3';
     content: counter(li-counter);
     counter-increment: li-counter;
- }
+  }
+
  .pgp p:last-child{
 	padding-bottom: 38px;
  }
-
 }
 
 @media (max-width: 400px) {
 
-.introcontainer{
-       background: #197CAA;
-}
- .intro h1, .intro p{
-   width: 100%;
- }
- .intro h1{
+  .introcontainer{
+    background: #197CAA;
+  }
+
+  .intro h1, .intro p{
+    width: 100%;
+  }
+
+  .intro h1{
    font-size: 28px;
    padding: 12px 0 12px 0;
- }
+  }
 
- .intro p{
-	font-size: 1em;
-	line-height: 1.4em;
-	padding: 0 0 18px 0;
-}
+  .intro p{
+    font-size: 1em;
+    line-height: 1.4em;
+    padding: 0 0 18px 0;
+  }
 
-.instructionscontainer{
-  background: #fff;
-}
+  .instructionscontainer{
+    background: #fff;
+  }
 
- .instructions h2, .instructions p, 
- .pgp h2, .pgp p, .terms p, .terms h2, .subfooter, .about{
-	width: 100%;
- }
+  .instructions h2, .instructions p, .pgp h2, .pgp p, .terms p, .terms h2, .subfooter, .about{
+    width: 100%;
+  }
 
-.instructions h2, .instructions p, li, .pgp h2, .pgp p, .terms p, .terms h2, .subfooter, .about{
-	width: 100%;
- }
+  .instructions h2, .instructions p, li, .pgp h2, .pgp p, .terms p, .terms h2, .subfooter, .about{
+  	width: 100%;
+   }
 
+  h2{
+  	padding: 18px 0 18px 0;
+  }
 
-h2{
-	padding: 18px 0 18px 0;
-}
+  p{
+  	padding-bottom: 18px;
+  }
 
-p{
-	padding-bottom: 18px;
-}
-
-ol.circles-list {
+  ol.circles-list {
     list-style-type: none;
     list-style-type: decimal !ie; /*IE 7- hack*/
     margin: 0;
     margin-left: 0;
     padding: 0;
     counter-reset: li-counter;
- }
+  }
 
-ol.circles-list > li{
+  ol.circles-list > li{
     position: relative;
     margin-bottom: 18px;
     padding-left: 3em;
     min-height: 3em;
- }
+  }
 
-ol.circles-list > li:before {
+  ol.circles-list > li:before {
     position: absolute;
     top: 0;
     left: 0;
@@ -419,42 +419,40 @@ ol.circles-list > li:before {
     color: #fff;
     border-radius: 50%;
     background-color: #4bc6df;
-	font-family:'DE3';
+    font-family:'DE3';
     content: counter(li-counter);
     counter-increment: li-counter;
- }
+  }
 
-.pgpcontainer{
-       background: #cce8f7;
-}
+  .pgpcontainer{
+    background: #cce8f7;
+  }
 
-.pgp p:last-child{
-	padding-bottom: 34px;
- }
+  .pgp p:last-child{
+  	padding-bottom: 34px;
+   }
 
-.termscontainer{
-       background: #FFF;
-}
+  .termscontainer{
+    background: #FFF;
+  }
 
-.footercontainer{
-       background: #005689;
-}
+  .footercontainer{
+    background: #005689;
+  }
 
-.footer{
-       width: 100%;      
-}
-
-
-footer a img{
-  margin:4px 0 0 30px; 
-}
-
-.subfooter p{
-  font-family:'textsans';
-  font-size: 14px;
-  padding: 12px 0 0 30px;
-}
+  .footer{
+    width: 100%;      
+  }
 
 
+  footer a img{
+    margin:4px 0 0 30px; 
+  }
+
+  .subfooter p{
+    font-family:'textsans';
+    font-size: 14px;
+    padding: 12px 0 0 30px;
+  }
 }
 
