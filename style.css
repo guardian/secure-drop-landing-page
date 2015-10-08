@@ -80,6 +80,11 @@ a{
 	font-weight: bold;
 }
 
+p.warning strong{
+  background-color: #4bc6df;
+  border-radius: 10px;
+  padding: 0 5px;
+}
 
 .intro span{
   font-family:'DE5';
@@ -168,6 +173,11 @@ ol.circles-list > li:before {
 
 ol.circles-list > li:after{
 	font-size: 16px;
+}
+
+.secureproplogo {
+  float: right;
+  max-width: 120px;
 }
 
 .pgplink{
@@ -285,6 +295,7 @@ footer a p{
     content: counter(li-counter);
     counter-increment: li-counter;
  }
+
 }
 
 @media (max-width: 750px) {
