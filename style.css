@@ -43,6 +43,9 @@ a{
 	border-bottom-color: rgb(220, 220, 220);
 }
 
+.onion-url{
+	font-weight: bold;
+}
 
 /*Intro styles*/
 
@@ -84,6 +87,12 @@ p.warning strong{
   background-color: #4bc6df;
   border-radius: 10px;
   padding: 0 5px;
+}
+
+p.warning__maintenance strong{
+  background-color: #ff6600;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .intro span{
