@@ -1,7 +1,7 @@
 # secure-drop-landing-page
 Landing page for Secure Drop
 
-A fully SSL information page for The Guardians SecureDrop implementation
+A fully SSL information page for The Guardian's SecureDrop implementation
 
 No remote scripts allowed
 
